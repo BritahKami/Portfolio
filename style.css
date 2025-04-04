@@ -1,0 +1,140 @@
+.index-body{font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .review-body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color:#6a6969;
+      margin: 0px;
+      padding: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+  }
+  p{
+  font-size: larger;
+  }
+  header{
+    background-color:#822b0e;
+    padding: 6px;
+    margin: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  
+  }
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  nav ul li a {
+    color: white;
+    /* Removes the underlining */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover{
+    background-color: rgb(16, 16, 16);
+  }
+  /* Styling Footer */
+  footer{
+    background-color:#822b0e;
+    padding: 6px;
+    margin: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .review-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+  
+  .review-left{
+  
+  display: flex;
+    flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-left: 10px;
+  font-size: larger;
+  }
+  .review-left-title h2{
+  
+  font-weight: bold;
+  color: white;
+  font-size:3rem;
+  margin-bottom: 1px;
+  
+  }
+  
+  .review-inputs{
+  width: 400px;
+  height: 45px ;
+  border:none;
+  outline: none;
+  padding-left: 30px;
+  font-weight: 450;
+  color: black;
+  border-radius:20px;
+  font-size: large;
+  
+  }
+  textarea.review-inputs {
+  resize: vertical;
+  
+  }
+  label{
+  color:white
+  }
+  
+  .review-inputs::placeholder{
+  color: black;
+  font-size: medium;
+  }
+  .submit-button{
+  display:flex;
+  align-items: center;
+  padding: 15px,30px;
+  font-size: 20px;
+  width: 10%;
+  border:none;
+  border-radius: 40px;
+  cursor:pointer;
+  margin-bottom: 10px;
+  }
+  h1{
+    text-align: center;
+  }
+  .self-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 8px;
+    max-width: 80%;
+    margin: auto;
+  }
+  .self-introductory{
+    flex: 1;
+    font-size: large;
+  }
+  img{
+    border-radius:50%;
+  }
+  .about-container{
+    display: flex;
+    padding: 5px;
+    gap: 20px;
+  }
+  li{
+    font-size: large;
+  }
